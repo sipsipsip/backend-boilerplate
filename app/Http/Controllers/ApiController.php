@@ -112,10 +112,8 @@ class ApiController extends Controller {
     public function apiCurrentUser(){
         $user = [];
         $user = \Auth::user();
-        $id = $user->id;
-
-
-        $user = \App\User::find($id);
+        $nip = $user->nip;
+        $user = \App\Models\Pegawai::with('roles')->select(['nip', 'nama'])->find($nip);
 
         return $user;
     }

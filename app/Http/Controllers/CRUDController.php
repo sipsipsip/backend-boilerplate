@@ -24,7 +24,6 @@ class CRUDController extends Controller {
 
 
              $result = [];
-
              if($objectModel = $modelClass::create($input)){
 
                  /** handle belongsToMany relationship **/
@@ -76,7 +75,8 @@ class CRUDController extends Controller {
 
 
 
-	/** add new Model **/
+	/** Update new Model **/
+	/* /api/general/update/{id}?field1=&btm[relationname][]={relationid}&hm[relationname][]={relationid}&model={modelname}*/
      	public function getUpdate($id){
      	    \Eloquent::unguard();
 
