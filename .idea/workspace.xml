@@ -25,7 +25,57 @@
         <entry file="file://$PROJECT_DIR$/public/frontend/src/views/HomeView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Root.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/frontend/src/containers/Root.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/frontend/src/views/admin/AdminView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17056856">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/frontend/src/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/frontend/src/redux/reducers/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -51,20 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Jabatan.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Jabatan.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ApiController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6304348">
+            <state vertical-scroll-proportion="0.0">
               <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
               <folding />
             </state>
@@ -76,46 +116,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Role.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Role.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/frontend/src/app.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rootReducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/frontend/src/redux/rootReducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -139,10 +139,8 @@
         <option value="$PROJECT_DIR$/public/frontend/src/layouts/Calculator.js" />
         <option value="$PROJECT_DIR$/public/frontend/src/redux/constants/index.js" />
         <option value="$PROJECT_DIR$/public/frontend/src/redux/actions/index.js" />
-        <option value="$PROJECT_DIR$/public/frontend/src/redux/reducers/user.js" />
         <option value="$PROJECT_DIR$/public/frontend/src/redux/rootReducer.js" />
         <option value="$PROJECT_DIR$/public/frontend/src/app.config.js" />
-        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LDAPController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_02_29_091239_create_pegawai_role_pivot_table.php" />
@@ -151,8 +149,12 @@
         <option value="$PROJECT_DIR$/app/Models/Role.php" />
         <option value="$PROJECT_DIR$/app/Models/Pegawai.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CRUDController.php" />
-        <option value="$PROJECT_DIR$/public/frontend/src/views/HomeView.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/public/frontend/src/routes/index.js" />
+        <option value="$PROJECT_DIR$/public/frontend/src/views/HomeView.js" />
+        <option value="$PROJECT_DIR$/public/frontend/src/redux/reducers/user.js" />
+        <option value="$PROJECT_DIR$/public/frontend/src/views/admin/AdminView.js" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
       </list>
     </option>
   </component>
@@ -225,7 +227,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -239,11 +241,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
+              <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,7 +259,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="api&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Http/Controllers/ApiController.php&#10;actions/index&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/public/frontend/src/redux/actions/index.js&#10;CRUD&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Http/Controllers/CRUDController.php&#10;apicon&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Http/Controllers/ApiController.php&#10;database&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/config/database.php&#10;appserv&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Providers/AppServiceProvider.php&#10;composerjson&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/composer.json&#10;ldap&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Http/Controllers/Auth/LDAPController.php&#10;auth&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Http/Controllers/Auth/AuthController.php&#10;appblad&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/resources/views/app.blade.php&#10;actions/&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/public/frontend/src/redux/actions&#10;rootre&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/public/frontend/src/redux/rootReducer.js&#10;HomeView&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/public/frontend/src/views/HomeView.js&#10;homeblade&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/resources/views/home.blade.php&#10;User&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/User.php&#10;config/app&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/config/app.php&#10;config/databas&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/config/database.php&#10;config/app.php&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/config/app.php&#10;.env&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/.env&#10;routes&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Http/routes.php&#10;appblade&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/resources/views/app.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="appb&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/resources/views/app.blade.php&#10;reducers/user&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/public/frontend/src/redux/reducers/user.js&#10;RootJs&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/public/frontend/src/containers/Root.js&#10;Root.&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/public/frontend/src/redux/rootReducer.js&#10;routes/index&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/public/frontend/src/routes/index.js&#10;api&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Http/Controllers/ApiController.php&#10;actions/index&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/public/frontend/src/redux/actions/index.js&#10;CRUD&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Http/Controllers/CRUDController.php&#10;apicon&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Http/Controllers/ApiController.php&#10;database&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/config/database.php&#10;appserv&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Providers/AppServiceProvider.php&#10;composerjson&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/composer.json&#10;ldap&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Http/Controllers/Auth/LDAPController.php&#10;auth&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Http/Controllers/Auth/AuthController.php&#10;appblad&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/resources/views/app.blade.php&#10;actions/&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/public/frontend/src/redux/actions&#10;rootre&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/public/frontend/src/redux/rootReducer.js&#10;HomeView&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/public/frontend/src/views/HomeView.js&#10;homeblade&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/resources/views/home.blade.php&#10;User&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/User.php&#10;config/app&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/config/app.php&#10;config/databas&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/config/database.php&#10;config/app.php&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/config/app.php&#10;.env&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/.env&#10;routes&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/app/Http/routes.php&#10;appblade&#9;FILE&#9;file:///Users/azamuddin/Development/kantor/rencana-karir/resources/views/app.blade.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -488,13 +490,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1436" y="23" width="1280" height="1001" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32832617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32832617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -648,22 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/frontend/src/redux/reducers/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59699">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/frontend/src/redux/rootReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/frontend/src/app.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -684,14 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5401338">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31772575">
-          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -760,22 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/frontend/src/redux/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/frontend/src/views/HomeView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CRUDController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -784,10 +746,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/frontend/src/redux/rootReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17056856">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/frontend/src/containers/Root.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6304348">
+        <state vertical-scroll-proportion="0.0">
           <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/frontend/src/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/frontend/src/views/HomeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/frontend/src/redux/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/frontend/src/redux/reducers/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/frontend/src/views/admin/AdminView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17056856">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
         </state>
       </provider>
