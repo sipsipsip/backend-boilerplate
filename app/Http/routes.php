@@ -12,6 +12,17 @@
 */
 
 
+/*--------------------------------------
+    API v2
+    ------------------------------------*/
+
+Route::group(['prefix'=>'api/v2/'], function(){
+
+    Route::get('/{node}/{id?}/{edge?}', 'ApiController@getNode');
+});
+
+
+
 /* -------------------------------------------
     AUTHENTICATION ROUTE
     ------------------------------------------ */
@@ -23,6 +34,9 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+
+
 
 
 /* -------------------------------------------
@@ -41,7 +55,7 @@ Route::get('home', 'HomeController@index');
 
 
 /* ---------------------------------
-    APPLICATION API ENDPOINTS :: API
+    APPLICATION API ENDPOINTS :: APIv1
     -------------------------------- */
 Route::group(['prefix'=>'api/v1'], function(){
     /** DATA API ENDPOINT **/
