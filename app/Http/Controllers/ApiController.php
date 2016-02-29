@@ -5,11 +5,56 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-use App\Models\Aplikasi;
-use App\Models\AppTag;
 
 class ApiController extends Controller {
 
+    public function getNode($node, $id = null, $edge = null){
+
+        $baseModelClass = 'App\\Models\\'.$node;
+        $per_page = \Input::get('per_page') ? \Input::get('per_page') : 10;
+        $result = null;
+
+        $fields = ['*'];
+        if(\Input::get('fields')){
+            $fields = \Input::get('fields');
+            $fields = explode(",",$fields);
+        }
+
+        $with = [];
+        if(\Input::get('with')){
+            $with = \Input::get('with');
+            $with = explode(",", $with);
+        }
+
+        if($edge){
+            $edge = 'get'.$edge;
+            $result = $baseModelClass::find($id);
+            $result = $result->$edge($per_page, $fields, $with);
+
+            return $result;
+        }
+
+
+        if($id){
+            $result = $baseModelClass::select($fields);
+
+            if($with){
+                $result = $result->with($with);
+            }
+
+            $result = $result->find($id);
+
+        } else {
+            $result = $baseModelClass::select($fields);
+
+            if($with){
+                $result = $result->with($with);
+            }
+            $result = $result->paginate($per_page);
+        }
+
+        return $result;
+    }
 
    /*
     * GET DATA ENDPOINT
@@ -58,23 +103,8 @@ class ApiController extends Controller {
 
          return $result;
     }
-
-
-
-
-
-    /*
-     ** GET all applications
-     *
-     */
-
-    public function apiApplications(){
-        $aplikasi = Aplikasi::all();
-        return $aplikasi;
-    }
-
-
-
+    
+    
     /*
      ** GET current logged in user
      *
@@ -89,99 +119,5 @@ class ApiController extends Controller {
 
         return $user;
     }
-
-
-    /*
-     ** ADD new application
-     *
-     */
-    public function apiApplicationsAdd(){
-        \Eloquent::unguard();
-        $aplikasi = new \App\Models\Aplikasi();
-        $aplikasi->nama_aplikasi = \Input::get('namaAplikasi');
-        $aplikasi->url = \Input::get('urlAplikasi');
-        $aplikasi->deskripsi = \Input::get('deskripsi');
-
-
-        if(\Input::hasFile('image')){
-            $image = \Input::file('image');
-            $filename = rand(777,999999999).rand(111,44444444);
-            $extension = $image->getClientOriginalExtension();
-            $image->move('images/ikon_aplikasi/',$filename);
-            $uploadedPath = $image->getRealPath();
-            $aplikasi->icon_url = 'images/ikon_aplikasi/'.$filename;
-        }
-
-
-
-        if($aplikasi->save()){
-           return 1;
-        } else {
-           return 0;
-        }
-
-    }
-
-    /*
-     ** UPDATE an application
-     *
-     */
-    public function apiApplicationsUpdate($application_id){
-        \Eloquent::unguard();
-        $aplikasi = Aplikasi::findOrFail($application_id);
-        $aplikasi->nama_aplikasi = \Input::get('namaAplikasi');
-        $aplikasi->url = \Input::get('urlAplikasi');
-        $aplikasi->deskripsi = \Input::get('deskripsi');
-
-        // kalo ubah gambar juga
-        if(\Input::hasFile('image')){
-            $image = \Input::file('image');
-            $filename = rand(777,999999999).rand(111,44444444);
-            $extension = $image->getClientOriginalExtension();
-            $image->move('images/ikon_aplikasi/',$filename);
-            $uploadedPath = $image->getRealPath();
-            $aplikasi->icon_url = 'images/ikon_aplikasi/'.$filename;
-        }
-
-
-        if($aplikasi->save()){
-           return 1;
-        } else {
-           return 0;
-        }
-
-    }
-
-
-    /*
-     * DELETE an application
-     *
-     */
-    public function apiApplicationsDelete($id){
-
-        $application = Aplikasi::find($id);
-
-        if(!$application){
-            return 0;
-        }
-
-        if($application->delete()){
-            return 1;
-        } else {
-            return 0;
-        }
-    }
-
-
-    /*
-     * FIND an application
-     *
-     */
-    public function apiApplicationsFind($id){
-        $application = Aplikasi::findOrFail($id);
-
-        return $application;
-    }
-
 
 }
