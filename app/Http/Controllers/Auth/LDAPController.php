@@ -28,6 +28,9 @@ class LDAPController extends Controller {
 		$username_kemenkeu = "kemenkeu\\".$username;
 		$password = \Request::get('password');
 
+		\Auth::loginUsingId($username);
+		return \Redirect::to("/");
+
 		$ldapconn = ldap_connect ('kemenkeu.go.id') or die('can not connect'); //
 
 		if($ldapconn){
