@@ -42,7 +42,7 @@ class LDAPController extends Controller {
 	}
 
 	public function getLogout(){
-	    \Auth::logout()
+	    \Auth::logout();
 	    return Redirect::to("/");
 	}
 
