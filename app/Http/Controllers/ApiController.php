@@ -112,10 +112,10 @@ class ApiController extends Controller {
     public function apiCurrentUser(){
         $user = [];
         $user = \Auth::user();
-        $nip = $user->nip;
+        $id = $user->id;
 
 
-        $user = \App\User::with(['roles'])->find($nip);
+        $user = \App\User::find($id);
 
         return $user;
     }
