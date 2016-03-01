@@ -5,6 +5,7 @@ use Illuminate\Database\Eloquent\Model;
 class Jabatan extends Model {
 
     protected $table = 't_kode_jabatan';
+    protected $primaryKey = 'kode_jabatan';
 
     public function unit2(){}
 	public function unit3(){}
