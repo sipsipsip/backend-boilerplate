@@ -14,12 +14,13 @@ class CRUDController extends Controller {
      	public function getAdd(){
      	    \Eloquent::unguard();
              // Get the query params
-     	     $input = \Input::except(['model', 'btm', 'hm']);
+     	     $input = \Input::except(['model', 'btm', 'hm', "_"]);
 
              /** belongsTo relationship automatically handled here **/
              $modelClass = \Input::get('model');
              $modelClass = ucfirst($modelClass);
              $modelClass = 'App\\Models\\'.$modelClass;
+
 
 
 
@@ -35,6 +36,13 @@ class CRUDController extends Controller {
                      }
                  }
 
+                 if($hm = \Input::get('hmtest')){
+                    $rels = [];
+                    foreach($hm as $related => $ids){
+                        $objectModel->$related()->saveMany($ids);
+                    }
+                 }
+
 
                  /** handle hasMany relationship **/
                  /** this one is only enhanced feature right now,
@@ -44,19 +52,22 @@ class CRUDController extends Controller {
                      using belongsTo which is standard, just specify the id of the parent as
                      params **/
 
-                 if(\Input::get('hm')){
+                 if($hm = \Input::get('hm')){
                      // hm stands for hasMany, the value is models of belonging and its ids
-                     $hm = \Input::get('hm');
                      $rels = [];
                      foreach($hm as $owned => $newhasmanyobject){
                          foreach($newhasmanyobject as $obj){
-                            $relatedModel = 'App\\Models\\'.$owned;
-                            $o = new $relatedModel($obj);
+                            $relatedModel = '\App\\Models\\'.$owned;
+                            //$obj = json_decode(($obj), true);
+                            $o = $relatedModel::create($obj);
                             $rels[] = $o;
+                            $objectModel->$owned()->save($o);
                          }
 
+                         //return ($rels);
+
                          // save related has many models
-                         $objectModel->$owned()->saveMany($rels);
+                         //$objectModel->$owned()->saveMany($rels);
                      }
 
                  }
