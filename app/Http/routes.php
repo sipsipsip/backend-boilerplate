@@ -77,4 +77,24 @@ Route::group(['prefix'=>'api/v1'], function(){
     ---------------------------------- */
 Route::get('check-auth', 'Auth/LDAPController@checkAuth');
 
+Route::get('remote-auth', function(){
+    $identifier = \Request::get('identifier');
+    $key = \Request::get('login_key');
+
+    if(Session::get('login_key') != $key || !$key){
+        return "Mau ngapain hayo?";
+    }
+    $user = \App\User::where('kemenkeu', $identifier)->first();
+    \Auth::loginUsingId($user->id, TRUE);
+    Session::forget('login_key');
+    return \Redirect::to('/');
+});
+
+Route::get('remote-logout', function(){
+    \Session::flush();
+    \Auth::logout();
+    $next = \Request::get('next');
+    return Redirect::away('http://localhost:3000/kantor/new-account/public/logout?next='.$next);
+});
+
 

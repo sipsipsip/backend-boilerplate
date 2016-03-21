@@ -113,7 +113,7 @@ class ApiController extends Controller {
         $user = [];
         $user = \Auth::user();
         $nip = $user->nip;
-        $user = \App\Models\Pegawai::with('roles')->select(['nip', 'nama'])->find($nip);
+        $user = \App\Models\Pegawai::with(['roles','jabatan_pegawai'])->select(['nip', 'nama','kode_jabatan'])->find($nip);
 
         return $user;
     }

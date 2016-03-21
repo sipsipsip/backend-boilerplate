@@ -11,7 +11,7 @@ class CRUDController extends Controller {
 	/*** from ApiController@getData ***/
 
 	/** add new Model **/
-     	public function getAdd(){
+     	public function postAdd(){
      	    \Eloquent::unguard();
              // Get the query params
      	     $input = \Input::except(['model', 'btm', 'hm', "_"]);
@@ -20,9 +20,6 @@ class CRUDController extends Controller {
              $modelClass = \Input::get('model');
              $modelClass = ucfirst($modelClass);
              $modelClass = 'App\\Models\\'.$modelClass;
-
-
-
 
              $result = [];
              if($objectModel = $modelClass::create($input)){
@@ -86,13 +83,13 @@ class CRUDController extends Controller {
 
 
 
-	/** Update new Model **/
+	/** Update Model **/
 	/* /api/general/update/{id}?field1=&btm[relationname][]={relationid}&hm[relationname][]={relationid}&model={modelname}*/
      	public function getUpdate($id){
      	    \Eloquent::unguard();
 
              // Get the query params
-     	     $input = \Input::except(['model', 'btm', 'hm']);
+     	     $input = \Input::except(['model', 'btm', 'hm', '_']);
 
              /** belongsTo relationship automatically handled here **/
              $modelClass = \Input::get('model');
