@@ -84,7 +84,7 @@ Route::get('remote-auth', function(){
     if(Session::get('login_key') != $key || !$key){
         return "Mau ngapain hayo?";
     }
-    $user = \App\User::where('kemenkeu', $identifier)->first();
+    $user = \App\User::where('email', $identifier)->first();
     \Auth::loginUsingId($user->id, TRUE);
     Session::forget('login_key');
     return \Redirect::to('/');

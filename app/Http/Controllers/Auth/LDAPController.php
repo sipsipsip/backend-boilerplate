@@ -10,11 +10,12 @@ class LDAPController extends Controller {
 	// Show login form LDAP
 	public function getLogin()
 	{
-//        $key = rand(777,9999);
-//        \Session::put('login_key', $key);
-//        $return_url = 'http://localhost:3000/kantor/pola-karir/public/app';
-//        $remote_auth = 'http://localhost:3000/kantor/pola-karir/public/remote-auth';
-//	    return \Redirect::to('http://localhost:3000/kantor/accounts/public/check-auth?key='.$key.'&return_url='.$return_url.'&remote_auth='.$remote_auth);
+        // TO START USING SSO, UNCOMMENT THESE LINES BELOW & ADJUST THE URLS
+    //    $key = rand(777,9999);
+    //    \Session::put('login_key', $key);
+    //    $return_url = 'http://localhost:3000/test/public';
+    //    $remote_auth = 'http://localhost:3000/test/public/remote-auth';
+	//    return \Redirect::to('http://localhost:3000/kantor/new-account/public/check-auth?key='.$key.'&return_url='.$return_url.'&remote_auth='.$remote_auth);
 
 		return view('auth/ldap');
 	}
